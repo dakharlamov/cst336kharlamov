@@ -16,6 +16,15 @@ body{
     
 }
 
+b{
+    font-weight: 900;
+    font-style: oblique;
+}
+
+iframe{
+    
+    border:0;
+}
 
 
 #nav-bar{
@@ -164,11 +173,22 @@ td{
     
 }
 
+
+p{
+    font-size: 14px;
+}
+
 .cd-image{
     
     padding-left: 2.5%;
     
     padding-top: 14%;
+}
+
+.image-disc{
+    
+    color: white;
+    padding-left: 40%;
 }
 
 
