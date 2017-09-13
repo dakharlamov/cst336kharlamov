@@ -1,0 +1,36 @@
+td{
+    
+    padding: 3px;
+    border: 3px solid black;
+}
+
+table{
+    
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+#wrapper{
+    
+    font-family: monospace;
+    
+    font-size: large;
+    
+    margin: 0 auto;
+    
+    width: 75%;
+    
+    text-align: center;
+    
+    
+}
+
+img{
+    width: 50%;
+}
+
+body{
+    
+    background-image: url("./img/doge.png");
+    
+}
