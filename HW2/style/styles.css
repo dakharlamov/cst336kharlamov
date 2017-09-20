@@ -1,0 +1,60 @@
+
+
+body{
+    
+    background-color: #CCCCCC;
+    
+}
+
+#wrapper{
+    
+    margin: 0 auto;
+    
+    font-family: monospace;
+    
+    background-color: grey;
+    
+    text-align: center;
+    
+    padding: 4px;
+    
+}
+
+#title-head{
+    
+    font-size: 28px;
+    
+    font-weight: bold;
+    
+    color: white;
+    
+}
+
+#main-table{
+    
+    margin: 0 auto;
+    
+}
+
+#gen-table{
+    
+    margin: 0 auto;
+    
+    margin-top: 4px;
+    
+    background-color: #EEEEEE;
+    
+    border: solid 2px;
+    
+    border-collapse: collapse;
+}
+
+tr{
+    border:none;
+}
+
+td{
+    padding: 5px;
+    
+    border: none;
+}
