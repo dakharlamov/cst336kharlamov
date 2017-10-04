@@ -1,0 +1,58 @@
+
+body{
+    
+    background-color: #DDDDDD;
+    font-family: monospace;
+}
+
+#wrapper{
+    
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#cbox{
+    
+    background-color: #EFEFEF;
+    padding:3px;
+    
+}
+
+form{
+    
+    margin: 0 auto;
+    width: 300px;
+    
+}
+
+img{
+    
+    opacity: 0.75;
+    
+    border-radius: 15px;
+    
+    width: 25%;
+    
+}
+
+
+#fcol{
+    
+    border-radius: 15px;
+    width:25%;
+    height:25%;
+    padding: 50px;
+    
+    margin: 0 auto;
+}
+
+.ptext{
+    
+    padding: 10px;
+    
+    background-color: #EEEEEE;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
