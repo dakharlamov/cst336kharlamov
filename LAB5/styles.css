@@ -1,0 +1,55 @@
+body{
+    
+    background-color: #338e6b;
+    
+}
+
+
+table{
+    
+    border-collapse: collapse;
+    
+    width: 750px;
+    
+    background-color: white;
+    
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    
+}
+
+td, th{
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    
+    background-color: #DFDFDF;
+    
+}
+
+th{
+    
+    background-color: #0d52c1;
+    color: white;
+    
+}
+
+
+#input-form{
+    padding: 5px;
+    
+    background-color: white;
+    
+    text-align: center;
+    
+    margin: 0 auto;
+    
+    width: 750px;
+    
+    border-radius: 10px;
+    
+    
+}
