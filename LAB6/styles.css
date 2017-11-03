@@ -1,0 +1,46 @@
+#wrapper{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #AAAAAA;
+    width: 500px;
+    border-radius: 15px;
+    padding:10px;
+}
+
+.error{
+    
+    color:red;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+h1{
+    
+    color: #333333;
+    
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+.success{
+    
+    color:green;
+    margin: 0 auto;
+    text-align: center;
+}
