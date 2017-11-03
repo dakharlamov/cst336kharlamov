@@ -37,7 +37,7 @@
     
     <body>
         
-        <h1>Are you sure that you wish to delete <?php echo $data[0]['firstName'].' '.$data[0]['firstName']; ?></h1>
+        <h1>Are you sure that you wish to delete <?php echo $data[0]['firstName'].' '.$data[0]['lastName']; ?></h1>
         <form method="POST">
             <button formaction=<?php echo '"deleteuser.php?userId='.$_POST['userId'].'"'; ?> name="deleteConfirm" value="true">DELETE</button>
             <button formaction="users.php">CANCEL</button>
