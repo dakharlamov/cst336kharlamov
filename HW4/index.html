@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        
+    </head>
+    
+    
+    <body>
+        
+        <div class='container text-center'>
+            <header>
+                <h1>Image Generator</h1>
+                <h4>Javascript Edition</h4>
+            </header>
+            
+            <button class="regen btn btn-success">Reset/Generate New Image</button>
+            <br><br>
+            <span>
+                <button class="red btn btn-success">Generate with More Reds</button>
+                <button class="green btn btn-success">Generate with More Greens</button>
+                <button class="blue btn btn-success">Generate with More Blues</button>
+            </span>
+            <br><br>
+            <span><div style="display:inline;" id="reds"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <div style="display:inline;"  id="greens"></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <div style="display:inline;"  id="blues"></div></span>
+            <br><br>
+            <span>
+                <button class="redL btn btn-warning">Generate with Less Reds</button>
+                <button class="greenL btn btn-warning">Generate with Less Greens</button>
+                <button class="blueL btn btn-warning">Generate with Less Blues</button>
+            </span>
+            <br><br>
+            <div id='image-space'>
+            </div>
+            
+        </div>
+        
+        <script src="js/imagegen.js"></script>
+    </body>
+    
+</html>

@@ -1,0 +1,18 @@
+td{
+    
+    min-width: 10px;
+    min-height: 10px;
+    width: 11px;
+    height: 11px;
+    
+    
+}
+
+
+table{
+    
+    width: 90px;
+    height: 90px;
+    text-align:center;
+    margin: 0 auto;
+}
