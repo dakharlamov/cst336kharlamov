@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        
+        <style type="text/css">
+            body{
+                font-family:monospace;
+            }
+            table{
+                
+                text-align:center;
+                margin:0 auto;
+                padding: 5px;
+            }
+            
+            tr:nth-child(odd){
+                background-color: #EEEEEE;
+            }
+            
+            td{
+                padding: 3px;
+            }
+        </style>
+        
+        
+    </head>
+    
+    
+    <body>
+        
+        <div class='container text-center'>
+              <h1> Sign Up Form </h1>
+
+                <form method="POST">
+                    <fieldset>
+                       <legend>Sign Up</legend>
+                       Test username with "Steve"
+                       <table>
+                           <tr>
+                               <td>
+                                   First Name:
+                               </td>
+                               <td>
+                                   <input type="text">
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   Last Name:
+                               </td>
+                               <td>
+                                   <input type="text">
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   Email:
+                               </td>
+                               <td>
+                                   <input type="text">
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   Phone Number:
+                               </td>
+                               <td>
+                                   <input type="text">
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   Zip Code:
+                               </td>
+                               <td>
+                                   <input id="zip-input" type="text">
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                               </td>
+                               <td>
+                                   <span id="error"></span>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                               </td>
+                               <td>
+                                   <span id="city">City: </span>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                               </td>
+                               <td>
+                                   <span id="lat">Latitude: </span>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                               </td>
+                               <td>
+                                   <span id="long">Longitude: </span>
+                               </td>
+                           </tr>
+                           <tr>
+                                <td>
+                                   State:
+                               </td>
+                               <td>
+                                   <input type="text" id="state-input" maxlength="2">
+                               </td>
+                           </tr>
+                           <tr>
+                                <td>
+                                   Select a County:
+                               </td>
+                               <td>
+                                   <select id="county-selector"></select>
+                               </td>
+                           </tr>
+                           <tr>
+                                <td>
+                                   Desired Username:
+                               </td>
+                               <td>
+                                   <input type="text" id="username"><span id="status"></span>
+                               </td>
+                           </tr>
+                           <tr>
+                                <td>
+                                   Password:
+                               </td>
+                               <td>
+                                   <input name="passA" type="password">
+                               </td>
+                           </tr>
+                           <tr>
+                                <td>
+                                   Type Password Again:
+                               </td>
+                               <td>
+                                   <input name="passB" type="password">
+                               </td>
+                           </tr>
+                       </table>
+                      
+                        <input type="submit" formaction="php/passcheck.php" value="Sign up!">
+                    </fieldset>
+                </form>
+                </div>
+            
+        </div>
+        
+        <script type="text/javascript" src="js/jax.js"></script>
+    </body>
+    
+</html>
