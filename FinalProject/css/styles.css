@@ -1,0 +1,73 @@
+body {
+   padding-top: 5rem;
+}
+
+.starter-template {
+   padding: 3rem 1.5rem;
+   text-align: center;
+}
+
+
+#game-list{
+   text-align: center;
+   margin: 0 auto;
+}
+
+#reportbtns{
+   text-align: center;
+   margin: 0 auto;
+}
+
+#search{
+   text-align: center;
+   margin: 0 auto;
+}
+
+#reports{
+   text-align: center;
+   margin: 0 auto;
+}
+
+
+#loading-gif{
+   
+   width: 128px;
+   height: 128px;
+   
+}
+
+#games-table {
+   
+   margin: 0 auto;
+}
+
+#games-table tr:nth-child(odd){
+   
+   background-color: #EEEEEE;
+}
+
+#games-table td{
+   
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: left;
+   
+}
+
+#games-table th{
+   
+   background-color: #DDDDDD;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: left;
+}
+
+.esrb-images{
+   
+   width: 50px;
+   
+}
